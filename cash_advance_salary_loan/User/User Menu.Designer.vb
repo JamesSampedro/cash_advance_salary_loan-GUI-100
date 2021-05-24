@@ -79,7 +79,7 @@ Partial Class frm_userMenu
         Me.Controls.Add(Me.btn_cashAdvance)
         Me.Controls.Add(Me.btn_salaryLoan)
         Me.Name = "frm_userMenu"
-        Me.Text = "User_Menu"
+        Me.Text = "User Menu"
         Me.ResumeLayout(False)
 
     End Sub

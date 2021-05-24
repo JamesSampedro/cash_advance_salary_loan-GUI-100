@@ -26,6 +26,8 @@ Partial Class frm_userSalaryLoan
         Me.btn_submit = New System.Windows.Forms.Button()
         Me.btn_new = New System.Windows.Forms.Button()
         Me.grpbox_input = New System.Windows.Forms.GroupBox()
+        Me.txt_comaker = New System.Windows.Forms.TextBox()
+        Me.Label2 = New System.Windows.Forms.Label()
         Me.txt_mosToPay = New System.Windows.Forms.TextBox()
         Me.lbl_mosToPay = New System.Windows.Forms.Label()
         Me.txt_amount = New System.Windows.Forms.TextBox()
@@ -42,8 +44,6 @@ Partial Class frm_userSalaryLoan
         Me.Label1 = New System.Windows.Forms.Label()
         Me.txt_dateToday = New System.Windows.Forms.TextBox()
         Me.lbl_dateToday = New System.Windows.Forms.Label()
-        Me.txt_comaker = New System.Windows.Forms.TextBox()
-        Me.Label2 = New System.Windows.Forms.Label()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.txt_status = New System.Windows.Forms.TextBox()
         Me.Label3 = New System.Windows.Forms.Label()
@@ -99,6 +99,22 @@ Partial Class frm_userSalaryLoan
         Me.grpbox_input.TabIndex = 41
         Me.grpbox_input.TabStop = False
         Me.grpbox_input.Text = "Input"
+        '
+        'txt_comaker
+        '
+        Me.txt_comaker.Location = New System.Drawing.Point(121, 83)
+        Me.txt_comaker.Name = "txt_comaker"
+        Me.txt_comaker.Size = New System.Drawing.Size(147, 22)
+        Me.txt_comaker.TabIndex = 21
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Location = New System.Drawing.Point(51, 86)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(64, 17)
+        Me.Label2.TabIndex = 20
+        Me.Label2.Text = "Comaker"
         '
         'txt_mosToPay
         '
@@ -234,22 +250,6 @@ Partial Class frm_userSalaryLoan
         Me.lbl_dateToday.TabIndex = 29
         Me.lbl_dateToday.Text = "Date Today:"
         '
-        'txt_comaker
-        '
-        Me.txt_comaker.Location = New System.Drawing.Point(121, 83)
-        Me.txt_comaker.Name = "txt_comaker"
-        Me.txt_comaker.Size = New System.Drawing.Size(147, 22)
-        Me.txt_comaker.TabIndex = 21
-        '
-        'Label2
-        '
-        Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(51, 86)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(64, 17)
-        Me.Label2.TabIndex = 20
-        Me.Label2.Text = "Comaker"
-        '
         'GroupBox1
         '
         Me.GroupBox1.Controls.Add(Me.txt_status)
@@ -340,7 +340,7 @@ Partial Class frm_userSalaryLoan
         Me.Controls.Add(Me.txt_dateToday)
         Me.Controls.Add(Me.lbl_dateToday)
         Me.Name = "frm_userSalaryLoan"
-        Me.Text = "Salary_Loan"
+        Me.Text = "Salary Loan"
         Me.grpbox_input.ResumeLayout(False)
         Me.grpbox_input.PerformLayout()
         Me.GroupBox1.ResumeLayout(False)
